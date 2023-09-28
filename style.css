@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+input {
+    padding: 0.5rem
+}
+
+span {
+    font-size: small;
+    color: red;
+}
+
+#email-container, #password-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+form {
+    border-radius: 0.5rem;
+    background-color: rgb(216, 211, 211);
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    gap: 1rem;
+    gap: 2.5rem;
+}
+
+.success {
+    border: solid green 1px;
+}
+
+.error {
+    border: solid red 1px;
+}
+
+button {
+    padding: 0.5rem;
+    cursor: pointer;
+}
