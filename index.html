@@ -9,20 +9,38 @@
 </head>
 <body>
     <div id="container">
-        <h2>Registre-se</h2>
-        <form>
-            <div id="email-container">
-                <label for="email">E-mail</label>
-                <input type="text" id="email">
-                <span id="email-error"></span>
-            </div>
-            <div id="password-container">
-                <label for="password">Password</label>
-                <input type="password" id="password">
-                <span id="password-error"></span>
-            </div>
-            <button type="submit" id="submit-btn">Cadastrar</button>
-        </form>
+            <h2>Registre-se</h2>
+            <form>
+                <div id="email-container">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email">
+                    <span id="email-error"></span>
+                </div>
+                <div id="password-container">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                    <span id="password-error"></span>
+                </div>
+                <button type="submit" id="submit-btn">Cadastrar</button>
+            </form>
+        <div id="rules-side">
+            <ul>
+                <h3>O email deve conter:</h3>
+                <li>Um caractere @</li>
+                <li>Texto antes do @ com pelo menos 2 caracteres, números ou _ (underscore).</li>
+                <li>Texto após o @ com pelo menos 2 caracteres</li>
+                <li>Um . seguido de mais texto com pelo menos 2 caracteres após o texto após o @</li>
+                <li>Estrutura de um email válido: xx@xx.xx</li>
+            </ul>
+            <ul>
+                <h3>A senha deve conter:</h3>
+                <li>Pelo menos uma letra minúscula.</li>
+                <li>Pelo menos uma letra maiúscula</li>
+                <li>Pelo menos um número</li>
+                <li>Pelo menos um caractere especial.</li>
+                <li>Pelo menos 8 caracteres.</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
